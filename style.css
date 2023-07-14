@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(199, 207, 214);
+}
+
+
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+main h1{
+    font-size: 50px;
+    padding: 10px;
+}
+
+section{
+    width: 450px;
+    height: 240px;
+    background-color: #333333;
+    color: aqua;
+    border-radius: 3px;
+}
+
+.Fecha_actual{
+    font-size: 35px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.Hora_actual{
+    width: 90%;
+    height: 130px;
+    margin-left: 24px;
+    background-color: #1d2a35;
+    border-radius: 2px;
+}
+
+.Dia_actual{
+    margin: 0 auto;
+    padding: 30px;
+    left: 5000px;
+}
+
+.Dia_actual td{
+    color: rgb(124, 128, 127);
+    padding: 10px;
+    margin: 4px;
+    font-size: 15px;
+}
+
+.Horas{
+    display: flex;
+    position: center;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 70px;
+    padding-top: 10px;
+}
+
+#ToM{
+    font-size: 20px;
+    padding-top: 10%;
+    padding-left: 5px;
+}
+
